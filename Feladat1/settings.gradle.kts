@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Feladat1"
 include(":app")
- 
+include(":app")
