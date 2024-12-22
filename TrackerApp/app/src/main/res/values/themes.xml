@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Use an AppCompat theme instead of a Material theme -->
+    <style name="Theme.TrackerApp" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here if necessary -->
+    </style>
+
+</resources>
