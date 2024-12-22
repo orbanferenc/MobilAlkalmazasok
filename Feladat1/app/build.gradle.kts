@@ -49,6 +49,13 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    // Add the ConstraintLayout for Compose
+    implementation("androidx.constraintlayout:constraintlayout-compose:1.0.1")
+    implementation("com.android.support.constraint:constraint-layout:1.0.2")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation(libs.androidx.constraintlayout)
+    implementation(libs.material)
+    implementation(libs.androidx.activity)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
