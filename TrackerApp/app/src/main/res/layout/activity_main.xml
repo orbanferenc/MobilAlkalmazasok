@@ -2,9 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center|top"
     android:orientation="vertical"
-    android:padding="16dp"
-    android:gravity="center">
+    android:padding="16dp">
 
     <!-- TextView for greeting message -->
     <TextView
@@ -14,15 +14,18 @@
         android:text="Hello, TrackerApp!"
         android:textSize="18sp" />
 
-    <!-- ScrollView to wrap the ListView and allow scrolling -->
-    <ScrollView
+    <ListView
+        android:id="@+id/expenseListView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content" />
 
-        <ListView
-            android:id="@+id/expenseListView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-    </ScrollView>
+    <TextView
+        android:id="@+id/totalExpensesTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Total Expenses: $0.00" />
 
 </LinearLayout>
